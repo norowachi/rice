@@ -1,0 +1,18 @@
+/* User Custom Styles */
+
+#tray window decoration {
+	border-radius: 10px;
+}
+
+#tray menu {
+	background-color: @main-bg;
+}
+
+#tray menu * {
+	color: @main-fg;
+}
+
+#tray menu *:disabled {
+	color: @main-fg;
+	opacity: 0.7;
+}
